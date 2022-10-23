@@ -26,4 +26,4 @@ async def on_message(message):
         await message.channel.send(t.translate(message.content.strip('$en'),dest='en').text)
 
 keep_alive()
-client.run('MTAwMjk2NTc0Nzg1MDU2MzY0NQ.GOg2y4.50w8hm0af9NxlSgkZHMfVQk9AWhnVUbGyW8f9w')
+client.run('') #token hidden due to safety concerns
